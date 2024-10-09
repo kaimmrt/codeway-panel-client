@@ -6,8 +6,8 @@ import router from './routes';
 import Vue3Toastify, { type ToastContainerOptions } from 'vue3-toastify';
 
 const app=createApp(App);
-app.use(store);
 app.use(router);
+app.use(store);
 app.use(Vue3Toastify, {
     autoClose: 3000,
   } as ToastContainerOptions);

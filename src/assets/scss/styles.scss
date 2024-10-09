@@ -48,7 +48,10 @@ button {
     cursor: pointer;
     transition: border-color 0.25s;
     color: $white;
-    height: auto;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:hover{
         opacity: 0.8;
