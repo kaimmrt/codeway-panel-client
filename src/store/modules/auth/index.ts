@@ -2,16 +2,16 @@ import { Module } from 'vuex';
 import actions from './actions';
 import getters from './getters';
 import mutations from './mutations';
-import { AuthState } from '../../../types/AuthState';
-import { RootState } from '../../../types/RootState';
+import { IRootState } from '../../../types/interfaces/root-state.interface';
+import { ILogin } from '@/types/interfaces/login.interface';
 
-const authModule: Module<AuthState, RootState> = {
+const authModule: Module<ILogin, IRootState> = {
   namespaced: true,
   state: {
-    email: null,
-    token: null,
-    expiresIn: null,
-    userId: null,
+    email: '',
+    token: '',
+    countryCode: null,
+    userId: '',
   },
   mutations,
   getters,

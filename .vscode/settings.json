@@ -1,0 +1,11 @@
+{
+    "vetur.useWorkspaceDependencies": true,
+    "vetur.enable": true,
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.defaultFormatter.ts": "prettier",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.validation.template": true,
+    "vetur.validation.script": true,
+    "vetur.validation.style": true
+  }
+  

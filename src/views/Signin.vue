@@ -16,7 +16,6 @@ const form = ref({
 const showLoading = computed(() => store.state.showLoading);
 
 const onLogin = async () => {
-    console.log('form',form.value)
     store.commit(LOADING_SPINNER_SHOW_MUTATION, true);
     try {
         await store.dispatch('auth/' + LOGIN_ACTION, { email: form.value.email, password: form.value.password });
