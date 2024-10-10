@@ -83,7 +83,7 @@ const onLogout = async () => {
         border: 1px solid $secondary-color;
         box-shadow: 0 0.25rem 1.25rem rgba(255, 255, 255, 0.2);
         z-index: 1000; 
-        border-radius: 0.625rem;
+        border-radius: 0.5rem;
         
         ul {
             padding: 0;

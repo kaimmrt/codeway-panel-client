@@ -49,7 +49,7 @@ const onLogin = async () => {
           required
         />
       </div>
-      <CustomButton :loading="showLoading" text="Sign in"></CustomButton>
+      <CustomButton :loading="showLoading" text="Sign in" size="large"></CustomButton>
     </form>
   </AuthLayout>
 </template>
