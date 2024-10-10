@@ -97,6 +97,8 @@ const parameters = [
         color: $gray;
         text-align: left;
         padding: 10px;
+        font-size: 1.5rem;
+        font-weight: 500;
       }
     }
 
