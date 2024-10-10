@@ -25,6 +25,10 @@ a:active,
 a:focus {
     text-decoration: none;
 }
+
+li,ul{
+    list-style: none;
+}
   
 body {
     margin: 0;
@@ -39,10 +43,10 @@ h1 {
 }
 
 button {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: none;
-    padding: 20px 30px;
-    font-size: 18px;
+    padding: 1.25rem 1.875rem;
+    font-size: 1.125;
     font-weight: 500;
     font-family: inherit;
     cursor: pointer;
@@ -64,7 +68,7 @@ input {
     border: 1px solid gray;
     background-color: $primary-color;
     color: $white;
-    font-size: 16px;
+    font-size: 1rem;
 
     &:hover,
     &:active,
